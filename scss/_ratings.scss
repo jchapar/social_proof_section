@@ -1,0 +1,25 @@
+.ratings-container {
+  .rating {
+    background: var(--lightGrayishMagenta);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+
+    &-stars {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem;
+
+      .star {
+        margin: 0 0.25rem;
+      }
+    }
+
+    &-source {
+      text-align: center;
+      color: var(--veryDarkMagenta);
+      font-weight: 700;
+    }
+  }
+}
