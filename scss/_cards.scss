@@ -1,0 +1,44 @@
+.cards-container {
+  .card {
+    background: var(--veryDarkMagenta);
+    border-radius: 10px;
+    margin: 1rem 0;
+    padding: 2rem;
+    height: 100%;
+
+    &-buyer {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+
+      img {
+        border-radius: 50%;
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1rem;
+      }
+
+      .buyer-info {
+        font-weight: 500;
+
+        .buyer-name {
+          color: var(--white);
+        }
+        .buyer-verified {
+          color: var(--softPink);
+          font-weight: 400;
+        }
+      }
+    }
+
+    &-text {
+      color: var(--white);
+      font-size: 0.8rem;
+      font-weight: 100;
+      margin: 1rem 0;
+      line-height: 1.7;
+      max-width: 90%;
+      letter-spacing: 0.5px;
+    }
+  }
+}
