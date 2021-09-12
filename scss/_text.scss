@@ -1,0 +1,19 @@
+.main-text-container {
+  margin-top: 5rem;
+  text-align: center;
+  h1 {
+    color: var(--veryDarkMagenta);
+    max-width: 80%;
+    margin: 0 auto 1.5rem auto;
+    line-height: 1;
+    font-size: 2rem;
+  }
+
+  p {
+    color: var(--darkGrayishMagenta);
+    max-width: 85%;
+    margin: 0 auto 1.5rem auto;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+}
