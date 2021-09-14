@@ -1,0 +1,22 @@
+@media (min-width: 1000px) {
+  .grid {
+    display: grid;
+    grid-template-areas:
+      "mt rate"
+      "card card";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+
+    .main-text-container {
+      grid-area: mt;
+    }
+
+    .rating-container {
+      grid-area: rate;
+    }
+
+    .cards-container {
+      grid-area: card;
+    }
+  }
+}
