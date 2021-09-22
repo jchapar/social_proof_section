@@ -1,22 +1,24 @@
 @media (min-width: 1000px) {
-  .grid {
+  .grid-container {
     display: grid;
-    grid-template-areas:
-      "mt rate"
-      "card card";
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
+    height: 100vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(auto, auto);
+    justify-content: center;
+    align-content: center;
 
     .main-text-container {
-      grid-area: mt;
+      grid-column: 1 / 2;
     }
 
     .rating-container {
-      grid-area: rate;
+      grid-column: 2 / 3;
     }
 
     .cards-container {
-      grid-area: card;
+      grid-column: 1 / 3;
+      display: flex;
+      align-content: space-between;
     }
   }
 }

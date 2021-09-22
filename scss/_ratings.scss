@@ -23,3 +23,32 @@
     }
   }
 }
+
+@media (min-width: 1000px) {
+  .ratings-container {
+    .rating {
+      display: flex;
+      width: 65%;
+      align-content: center;
+      justify-content: center;
+
+      &:nth-child(2) {
+        margin: 0 auto;
+      }
+      &:last-child {
+        margin-left: auto;
+      }
+
+      &-stars {
+        margin-bottom: 0;
+      }
+
+      &-source {
+        margin-left: 0.5rem;
+        justify-content: center;
+        align-content: center;
+        padding: 0;
+      }
+    }
+  }
+}
