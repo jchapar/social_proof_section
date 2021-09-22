@@ -1,14 +1,36 @@
+.bg-pattern-top-mobile,
+.bg-pattern-bottom-mobile {
+  position: absolute;
+}
+
+.bg-pattern-top-mobile {
+  left: 0;
+  top: 0;
+}
+
+.bg-pattern-bottom-mobile {
+  right: 0;
+  bottom: 0;
+}
+
 .bg-pattern-top-desktop,
 .bg-pattern-bottom-desktop {
   display: none;
 }
-.bg-pattern-top-mobile,
-.bg-pattern-bottom-mobile {
-  display: none;
-}
 
-.bg-pattern-top-mobile {
-}
+@media (min-width: 1000px) {
+  .bg-pattern-top-desktop,
+  .bg-pattern-bottom-desktop {
+    position: absolute;
+  }
 
-.bg-pattern-bottom-mobile {
+  .bg-pattern-top-desktop {
+    left: 0;
+    top: 0;
+  }
+
+  .bg-pattern-bottom-desktop {
+    right: 0;
+    bottom: 0;
+  }
 }
