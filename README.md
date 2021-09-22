@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/jchapar/social_proof_section)
-- Live Site URL: [Add live site URL here](https://jchapar.github.io/social_proof_section/)
+- Solution URL: [Code](https://github.com/jchapar/social_proof_section)
+- Live Site URL: [Live Site](https://jchapar.github.io/social_proof_section/)
 
 ## My process
 
@@ -50,7 +50,7 @@ In regards to SASS, I've really been enjoying using partial files for styling di
 
 ### Useful resources
 
-- [Example resource 1](https://www.youtube.com/watch?v=9zBsdzdE4sM&t=793s) - I watched this video by Web Dev Simplified to review and practice working with grid. It's a great resource for any new or experienced developer when a CSS Grid review is needed.
+- [Youtube](https://www.youtube.com/watch?v=9zBsdzdE4sM&t=793s) - I watched this video by Web Dev Simplified to review and practice working with grid. It's a great resource for any new or experienced developer when a CSS Grid review is needed.
 
 ## Author
 
